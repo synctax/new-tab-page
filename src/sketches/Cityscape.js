@@ -38,6 +38,7 @@ const Cityscape = (p5) => {
 	};
 
 	p5.setup = () => {
+		crtShader = p5.loadShader(crtVert, crtFrag);
 		p5.createCanvas(p5.windowWidth, p5.windowHeight);
 		cnv = p5.createGraphics(p5.windowWidth, p5.windowHeight);
 		blurBuffer = p5.createGraphics(p5.windowWidth, p5.windowHeight);

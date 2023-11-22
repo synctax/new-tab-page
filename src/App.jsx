@@ -8,7 +8,7 @@ import Cityscape from "./sketches/Cityscape";
 function App() {
 	return (
 		<div className="App">
-			<ReactP5Wrapper sketch={Cityscape} />
+			<ReactP5Wrapper sketch={MomCircles} />
 		</div>
 	);
 }
